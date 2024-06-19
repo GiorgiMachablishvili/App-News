@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3770E242C221ED500677B7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3770E232C221ED500677B7B /* AppDelegate.swift */; };
+		E3770E262C221ED500677B7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3770E252C221ED500677B7B /* SceneDelegate.swift */; };
+		E3770E282C221ED500677B7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3770E272C221ED500677B7B /* ViewController.swift */; };
+		E3770E2D2C221ED700677B7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3770E2C2C221ED700677B7B /* Assets.xcassets */; };
+		E3770E302C221ED700677B7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3770E2E2C221ED700677B7B /* LaunchScreen.storyboard */; };
+		E3770E3D2C22202200677B7B /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3770E3C2C22202200677B7B /* NewsCell.swift */; };
+		E3770E402C22232C00677B7B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E3770E3F2C22232C00677B7B /* SnapKit */; };
+		E3770E422C22232C00677B7B /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = E3770E412C22232C00677B7B /* SnapKit-Dynamic */; };
+		E3770E452C22233600677B7B /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E3770E442C22233600677B7B /* Kingfisher */; };
+		E3770E4A2C22263600677B7B /* NewsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3770E492C22263600677B7B /* NewsInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E3770E202C221ED500677B7B /* Project 32 გიორგი მაჩაბლიშვილი.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 32 გიორგი მაჩაბლიშვილი.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3770E232C221ED500677B7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3770E252C221ED500677B7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E3770E272C221ED500677B7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3770E2C2C221ED700677B7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3770E2F2C221ED700677B7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3770E312C221ED700677B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3770E3C2C22202200677B7B /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		E3770E492C22263600677B7B /* NewsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsInfo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3770E1D2C221ED500677B7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3770E452C22233600677B7B /* Kingfisher in Frameworks */,
+				E3770E402C22232C00677B7B /* SnapKit in Frameworks */,
+				E3770E422C22232C00677B7B /* SnapKit-Dynamic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3770E172C221ED500677B7B = {
+			isa = PBXGroup;
+			children = (
+				E3770E222C221ED500677B7B /* Project 32 გიორგი მაჩაბლიშვილი */,
+				E3770E212C221ED500677B7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3770E212C221ED500677B7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3770E202C221ED500677B7B /* Project 32 გიორგი მაჩაბლიშვილი.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3770E222C221ED500677B7B /* Project 32 გიორგი მაჩაბლიშვილი */ = {
+			isa = PBXGroup;
+			children = (
+				E3770E372C221F8100677B7B /* App */,
+				E3770E382C221F9100677B7B /* Scenes */,
+				E3770E462C2225F500677B7B /* Domain */,
+				E3770E2C2C221ED700677B7B /* Assets.xcassets */,
+				E3770E2E2C221ED700677B7B /* LaunchScreen.storyboard */,
+				E3770E312C221ED700677B7B /* Info.plist */,
+			);
+			path = "Project 32 გიორგი მაჩაბლიშვილი";
+			sourceTree = "<group>";
+		};
+		E3770E372C221F8100677B7B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E3770E232C221ED500677B7B /* AppDelegate.swift */,
+				E3770E252C221ED500677B7B /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E3770E382C221F9100677B7B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E3770E392C221FB500677B7B /* Main View */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E3770E392C221FB500677B7B /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				E3770E3A2C221FEC00677B7B /* News View Controller */,
+				E3770E3B2C221FFD00677B7B /* News Cell */,
+			);
+			path = "Main View";
+			sourceTree = "<group>";
+		};
+		E3770E3A2C221FEC00677B7B /* News View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E3770E272C221ED500677B7B /* ViewController.swift */,
+			);
+			path = "News View Controller";
+			sourceTree = "<group>";
+		};
+		E3770E3B2C221FFD00677B7B /* News Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E3770E3C2C22202200677B7B /* NewsCell.swift */,
+			);
+			path = "News Cell";
+			sourceTree = "<group>";
+		};
+		E3770E462C2225F500677B7B /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				E3770E482C22261900677B7B /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		E3770E472C2225FA00677B7B /* API Struct */ = {
+			isa = PBXGroup;
+			children = (
+				E3770E492C22263600677B7B /* NewsInfo.swift */,
+			);
+			path = "API Struct";
+			sourceTree = "<group>";
+		};
+		E3770E482C22261900677B7B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E3770E472C2225FA00677B7B /* API Struct */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3770E1F2C221ED500677B7B /* Project 32 გიორგი მაჩაბლიშვილი */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3770E342C221ED700677B7B /* Build configuration list for PBXNativeTarget "Project 32 გიორგი მაჩაბლიშვილი" */;
+			buildPhases = (
+				E3770E1C2C221ED500677B7B /* Sources */,
+				E3770E1D2C221ED500677B7B /* Frameworks */,
+				E3770E1E2C221ED500677B7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project 32 გიორგი მაჩაბლიშვილი";
+			packageProductDependencies = (
+				E3770E3F2C22232C00677B7B /* SnapKit */,
+				E3770E412C22232C00677B7B /* SnapKit-Dynamic */,
+				E3770E442C22233600677B7B /* Kingfisher */,
+			);
+			productName = "Project 32 გიორგი მაჩაბლიშვილი";
+			productReference = E3770E202C221ED500677B7B /* Project 32 გიორგი მაჩაბლიშვილი.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3770E182C221ED500677B7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					E3770E1F2C221ED500677B7B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = E3770E1B2C221ED500677B7B /* Build configuration list for PBXProject "Project 32 გიორგი მაჩაბლიშვილი" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3770E172C221ED500677B7B;
+			packageReferences = (
+				E3770E3E2C22232C00677B7B /* XCRemoteSwiftPackageReference "SnapKit" */,
+				E3770E432C22233600677B7B /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = E3770E212C221ED500677B7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3770E1F2C221ED500677B7B /* Project 32 გიორგი მაჩაბლიშვილი */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3770E1E2C221ED500677B7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3770E302C221ED700677B7B /* LaunchScreen.storyboard in Resources */,
+				E3770E2D2C221ED700677B7B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3770E1C2C221ED500677B7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3770E4A2C22263600677B7B /* NewsInfo.swift in Sources */,
+				E3770E282C221ED500677B7B /* ViewController.swift in Sources */,
+				E3770E242C221ED500677B7B /* AppDelegate.swift in Sources */,
+				E3770E3D2C22202200677B7B /* NewsCell.swift in Sources */,
+				E3770E262C221ED500677B7B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E3770E2E2C221ED700677B7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3770E2F2C221ED700677B7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3770E322C221ED700677B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3770E332C221ED700677B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3770E352C221ED700677B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Project 32 გიორგი მაჩაბლიშვილი/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-0.Project-32--------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3770E362C221ED700677B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Project 32 გიორგი მაჩაბლიშვილი/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-0.Project-32--------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3770E1B2C221ED500677B7B /* Build configuration list for PBXProject "Project 32 გიორგი მაჩაბლიშვილი" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3770E322C221ED700677B7B /* Debug */,
+				E3770E332C221ED700677B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3770E342C221ED700677B7B /* Build configuration list for PBXNativeTarget "Project 32 გიორგი მაჩაბლიშვილი" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3770E352C221ED700677B7B /* Debug */,
+				E3770E362C221ED700677B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E3770E3E2C22232C00677B7B /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		E3770E432C22233600677B7B /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E3770E3F2C22232C00677B7B /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3770E3E2C22232C00677B7B /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		E3770E412C22232C00677B7B /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3770E3E2C22232C00677B7B /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		E3770E442C22233600677B7B /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3770E432C22233600677B7B /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E3770E182C221ED500677B7B /* Project object */;
+}
